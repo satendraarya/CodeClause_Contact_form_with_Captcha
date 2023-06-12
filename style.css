@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    margin: 15px 30px;
+    font-size: 16px;
+    padding: 20px;
+}
+.container{
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(228, 194, 226);
+    
+}
+input[type="submit"] {
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+}
+input[type="submit"]:hover {
+    padding: 12px 20px;
+    background-color:rgb(30, 191, 15);
+    border-radius: 9px;
+    cursor: progress;
+}
+#captchaimg {
+    height: 60px;
+}
+
